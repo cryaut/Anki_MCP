@@ -1,0 +1,115 @@
+{
+  "deck": "SAT English Practice - Grammar & Vocabulary",
+  "questions": [
+    {
+      "stem": "The stage crew checked the lights and sound twice, but neither the printed programs nor the banner ____ ready for opening night.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": {
+        "A": "were",
+        "B": "was",
+        "C": "have been",
+        "D": "are"
+      },
+      "answer": "B",
+      "explanation": "With neither … nor, the verb agrees with the nearer subject. Banner is singular, and checked places the sentence in the past, so was fits."
+    },
+    {
+      "stem": "After the judges announced their decision, the prize money was divided evenly between Priya and ____.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": {
+        "A": "myself",
+        "B": "I",
+        "C": "mine",
+        "D": "me"
+      },
+      "answer": "D",
+      "explanation": "Between is a preposition. Its objects are Priya and me, the object form of I."
+    },
+    {
+      "stem": "By the time the rescue team reached the summit, the climbers ____ to base camp.\n\nWhich choice correctly places the descent before the rescue team's arrival?",
+      "choices": {
+        "A": "had already descended",
+        "B": "have already descended",
+        "C": "are already descending",
+        "D": "will have descended"
+      },
+      "answer": "A",
+      "explanation": "Reached establishes a past reference point. Had already descended is past perfect and places the completed descent before that point."
+    },
+    {
+      "stem": "The committee identified three priorities____ safety, efficiency, and transparency.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": {
+        "A": ",",
+        "B": ";",
+        "C": ":",
+        "D": "[no punctuation]"
+      },
+      "answer": "C",
+      "explanation": "The committee identified three priorities is a complete clause. A colon can introduce the list that specifies those priorities."
+    },
+    {
+      "stem": "After a long debate, the board approved both ____ budgets for the next fiscal year.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": {
+        "A": "departments’",
+        "B": "departments",
+        "C": "department’s",
+        "D": "departments’s"
+      },
+      "answer": "A",
+      "explanation": "The budgets belong to two departments. For a plural noun that already ends in s, add the apostrophe after the final s."
+    },
+    {
+      "stem": "Hoping to finish the report before noon, the printer jammed twice.\n\nWhich revision makes clear who hoped to finish the report?",
+      "choices": {
+        "A": "Hoping to finish the report before noon, the printer jammed twice.",
+        "B": "The printer jammed twice while hoping to finish the report before noon.",
+        "C": "Hoping to finish the report before noon, the printer’s double jam was frustrating.",
+        "D": "Hoping to finish the report before noon, Tomás watched the printer jam twice."
+      },
+      "answer": "D",
+      "explanation": "The opening phrase describes the subject of the main clause. Tomás is the person hoping to finish the report."
+    },
+    {
+      "stem": "The prototype passed every safety test. ____, the company postponed its launch while engineers investigated a software bug that had gone undetected during testing.\n\nWhich choice completes the text with the most logical transition?",
+      "choices": {
+        "A": "Consequently",
+        "B": "For example",
+        "C": "Nevertheless",
+        "D": "Similarly"
+      },
+      "answer": "C",
+      "explanation": "Passing every test creates an expectation that the launch can proceed. Nevertheless introduces the unexpected delay."
+    },
+    {
+      "stem": "The manager’s response to the complaint was perfunctory. She offered a brief apology and made no effort to address the underlying problem.\n\nAs used in the text, what does perfunctory most nearly mean?",
+      "choices": {
+        "A": "Done with little care",
+        "B": "Thorough and carefully considered",
+        "C": "Unexpectedly generous",
+        "D": "Openly hostile"
+      },
+      "answer": "A",
+      "explanation": "The manager went through the motions of responding. The brief apology and lack of follow-up signal little care."
+    },
+    {
+      "stem": "Despite repeated rejections, the young novelist remained tenacious, revising her manuscript and resubmitting it to publishers for three years.\n\nAs used in the text, what does tenacious most nearly mean?",
+      "choices": {
+        "A": "Easily discouraged",
+        "B": "Openly critical",
+        "C": "Quietly indifferent",
+        "D": "Persistent and determined"
+      },
+      "answer": "D",
+      "explanation": "She keeps revising and submitting for years despite rejection. Her continued effort shows persistence."
+    },
+    {
+      "stem": "Dana spent three weekends rebuilding the greenhouse frame, measuring every beam twice before cutting it. During the first storm of the season, she stood at the kitchen window watching the wind bend the poplars. She sat down only after the rain stopped.\n\nWhich inference is best supported by the text?",
+      "choices": {
+        "A": "Dana regrets rebuilding the greenhouse by herself.",
+        "B": "Dana is concerned about how the storm might affect the greenhouse.",
+        "C": "Dana rebuilt the greenhouse mainly to protect the poplars.",
+        "D": "Dana is certain the greenhouse has already suffered serious damage."
+      },
+      "answer": "B",
+      "explanation": "Dana’s care during construction and her watchfulness during the storm suggest concern. The passage gives no evidence that damage has occurred."
+    }
+  ]
+}

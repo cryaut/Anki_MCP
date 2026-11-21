@@ -1,0 +1,25 @@
+{
+  "name": "anki-sat-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local stdio MCP server that previews and commits SAT multiple-choice decks to Anki through AnkiConnect at http://127.0.0.1:8765.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "clean": "node -e \"require('node:fs').rmSync('dist', { recursive: true, force: true })\"",
+    "build": "npm run clean && tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/*.test.js\"",
+    "start": "node dist/src/index.js",
+    "quiz": "node dist/src/quiz-cli.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "typescript": "5.9.3"
+  }
+}
