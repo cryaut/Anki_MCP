@@ -1,6 +1,6 @@
-# Anki SAT MCP
+# Anki Quiz MCP
 
-Un servidor MCP local para convertir preguntas de SAT Reading & Writing en **cuestionarios interactivos** y tarjetas de repaso. En un cuestionario puedes marcar una opción por pregunta, navegar por el lote, entregar, ver tu puntuación y revisar los errores. El ejemplo incluido tiene diez preguntas originales en inglés.
+Un servidor MCP local para convertir preguntas de lectura y escritura en inglés en **cuestionarios interactivos** y tarjetas de repaso. En un cuestionario puedes marcar una opción por pregunta, navegar por el lote, entregar, ver tu puntuación y revisar los errores. El ejemplo incluido tiene diez preguntas originales en inglés.
 
 ## Pruébalo en un navegador
 
@@ -16,7 +16,7 @@ El último comando imprime la ruta de un archivo HTML. Ábrelo en tu navegador y
 
 ## Usarlo en Anki desde un cliente MCP
 
-1. Instala [Anki Desktop](https://apps.ankiweb.net/) y el complemento oficial [AnkiConnect](https://ankiweb.net/shared/info/2055492159). En Anki, el código del complemento es `2055492159`. Reinicia Anki y deja abierto el perfil que quieres usar.
+1. Instala [Anki Desktop](https://apps.ankiweb.net/) y el complemento de terceros [AnkiConnect](https://ankiweb.net/shared/info/2055492159). En Anki, el código del complemento es `2055492159`. Reinicia Anki y deja abierto el perfil que quieres usar.
 2. Registra un servidor MCP con transporte **stdio**. Usa `node` como comando y la ruta absoluta de `dist/src/index.js` como argumento. En Codex puedes registrarlo con este comando desde la carpeta del repositorio:
 
    ```powershell
@@ -48,7 +48,7 @@ Usa de una a cincuenta preguntas en cada lote. Proporciona el texto, cuatro opci
 
 ```json
 {
-  "deck": "SAT · Reading and Writing",
+  "deck": "English Reading and Writing",
   "questions": [
     {
       "stem": "Both researchers submitted ____ reports on time.",
@@ -65,6 +65,6 @@ Usa de una a cincuenta preguntas en cada lote. Proporciona el texto, cuatro opci
 - El servidor habla con AnkiConnect en `127.0.0.1:8765`. AnkiConnect puede usar una clave. Suminístrala mediante `ANKI_CONNECT_API_KEY` o el archivo local `%LOCALAPPDATA%\AnkiSatMcp\ankiconnect.key` en Windows. Guarda la clave fuera del repositorio.
 - El HTML exportado no carga recursos externos ni envía las respuestas. Incluye la clave de respuestas para corregir localmente. Sirve para práctica personal.
 - Configura tu cliente MCP para pedir confirmación al llamar a `commit_sat_preview`, la única herramienta que cambia la colección. Si tu cliente usa un modelo en la nube, sus políticas se aplican al contenido que le compartas.
-- Usa tus propios materiales o los que tengas permiso para compartir. El ejemplo incluido es original.
+- Usa preguntas originales o materiales cuyos permisos cubran el uso que les darás. Los ejemplos son originales, creados con asistencia de IA. El proyecto es independiente. Consulta las [marcas, derechos de contenido y dependencias](THIRD_PARTY_NOTICES.md) y el [aviso de privacidad](PRIVACY.md).
 
 `npm test` compila el proyecto y ejecuta las pruebas locales. Consulta la [licencia MIT](LICENSE).
